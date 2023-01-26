@@ -187,53 +187,50 @@ margin-top: 30px;
 }
 /*end of top*/
 /*start footer*/
-footer {
+.container{
   margin-top: 200px;
- 
+width:100%;
+height: fit-content;
+}
+.container #ground{
+height:100%;
+}
+.footer {
   width:100%;
   height: 100%;
+  display:flex;
+  flex-wrap: wrap;
+  /* flex-direction: column-reverse; */
 }
-footer div{
+.footer div{
   margin-left: 70px;
+  width:375px;
 }
-footer img:not(.not img){
+.footer img:not(.not img){
   height: 100%;
 }
-footer .new form #email {
+.footer .new form #email {
   height:60px;
-  width:500px;
+  width:300px;
   border-radius: 7px;
 }
-footer .new form #sub{
+.footer .new form #sub{
   margin-top:25px;
-  margin-left: 250px;
+  margin-left: 150px;
+  width :150px;
   height:60px;
-  width:250px;
   border-radius: 7px;
   border:none;
   background-color:  hsl(322, 100%, 66%);
   color:white;
   font-size: larger;
+  margin-bottom: 50px;
 
 }
-footer .not h3{
+.footer .not h3{
   font-size: xxx-large;
   display: inline;
 }
-footer .not p{
+.footer .not p{
   display:inline-block;
 }
-/* @media (min-width:375px) {
-  footer .new form #email{
-    width:330px;
-  }
- footer #ground{
-  
- }
-} */
-/* @media (min-width:375px) {
-  footer .new form #sub{
-    width:150px;
-    margin-left: 150px
-  }
-} */
