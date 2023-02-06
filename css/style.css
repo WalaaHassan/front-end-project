@@ -120,13 +120,21 @@ margin-top: 30px;
 
 
 /*start of content*/
-.comunities, .top, .flowing, .users{
+.comunities, .top, .users{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
   align-items: center;
   margin: 100px;
 }
+
+.flowing{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  margin: 100px;
+} 
 .comunities h2{
   font-size: 95px;
   font-weight:650;
